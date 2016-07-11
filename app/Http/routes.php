@@ -25,6 +25,12 @@ Route::group(['middleware'=>'auth'],function() {
     Route::get('payments-details', function () {
         return view('payments-details');
     });
+    Route::get('cities', function () {
+        return view('cities');
+    });
+    Route::get('booking', function () {
+        return view('bookings');
+    });
 });
 
 Route::get('login', 'DashboardController@login');

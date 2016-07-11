@@ -30,7 +30,7 @@
         font-weight: bold;
     }
     .required{
-        color: orange;
+        color: #e58007;
         font-weight: bold;
     }
     .disp{
@@ -72,11 +72,11 @@
 <nav class="navbar">
     <div class="container">
         <ul class="nav navbar-nav logouts">
-            <li class=""><a href="javascript()"> Logged on as <strong>Admin </strong></a></li>
+            <li class=""><a href="#"> Logged on as <strong>Admin </strong></a></li>
             <li>&nbsp;&nbsp;&nbsp;</li>
             <li ><a href="{{ url('logout') }}" class="btn btn-xs btn-primary">Logout</a></li>
             <li>&nbsp;&nbsp;&nbsp;</li>
-            <li> <a href="javascript()"> Change Password</a></li>
+            <li> <a href="#"> Change Password</a></li>
         </ul>
     </div>
 </nav>
@@ -86,7 +86,7 @@
         <li role="presentation"><a href="{{ url('/') }}">Dashboards</a></li>
         <li role="presentation"><a href="{{ url('train-trips') }}">Trips</a></li>
         <li role="presentation"><a href="{{ url('stop-fares') }}">Fares</a></li>
-        <li role="presentation"><a href="#">City</a></li>
+        <li role="presentation"><a href="{{ url('cities') }}">City</a></li>
         <li role="presentation"><a href="{{ url('timetable') }}">TimeTables</a></li>
         <li class="dropdown">
             <a class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
@@ -98,7 +98,7 @@
                 <li><a href="#">Conductors</a></li>
             </ul>
         </li>
-        <li role="presentation"><a href="#">Booking</a></li>
+        <li role="presentation"><a href="{{ url('booking') }}">Booking</a></li>
         <li role="presentation"><a href="{{ url('payments-details') }}">Payment Details</a></li>
         <li class="dropdown">
             <a class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
@@ -153,7 +153,7 @@
                         <!-- <ol></ol> -->
                         <ul class="taglist" style="width: 100%;list-style-type: none;">
                             <li class="heading">#L303F John - <span class="required">Payment Received</span></li>
-                            <li>Dar es salaam to Tabora <span class="badge badge-warning">Tsh 10,000 /=</span></li>
+                            <li>Tabora to Mpanda <span class="badge badge-warning">Tsh 10,000 /=</span></li>
                             <li><a href="#">Quick Fill</a> <a href="#">Payments</a> <a href="#">Booking</a></li>
                             <li>Web Order</li>
                             <li><a href="">Send Email</a> <a href="">Send SMS</a></li>
@@ -161,7 +161,7 @@
                         <br>
                         <ul class="taglist" style="width: 100%;list-style-type: none;">
                             <li class="heading">#KJ9303F Khamis - <span class="required">Payment Received</span></li>
-                            <li>Dar es salaam to Tabora <span class="badge badge-warning">Tsh 10,000 /=</span></li>
+                            <li>Tabora to Mpanda <span class="badge badge-warning">Tsh 10,000 /=</span></li>
                             <li><a href="#">Quick Fill</a> <a href="#">Payments</a> <a href="#">Booking</a></li>
                             <li>Web Order</li>
                             <li><a href="">Send Email</a> <a href="">Send SMS</a></li>
@@ -169,7 +169,7 @@
                         <br>
                         <ul class="taglist" style="width: 100%;list-style-type: none;">
                             <li class="heading">#L3093F Shamsa - <span class="required">Payment Received</span></li>
-                            <li>Dar es salaam to Tabora <span class="badge badge-warning">Tsh 10,000 /=</span></li>
+                            <li>Tabora to Mpanda <span class="badge badge-warning">Tsh 10,000 /=</span></li>
                             <li><a href="#">Quick Fill</a> <a href="#">Payments</a> <a href="#">Booking</a></li>
                             <li>Web Order</li>
                             <li><a href="">Send Email</a> <a href="">Send SMS</a></li>
@@ -223,9 +223,9 @@
                     <hr>
                     <ul class="taglist" style="width: 100%;list-style-type: none;">
                         <li class="heading">#TON3IL John - <span class="required">Payment Received</span></li>
-                        <li><strong>Tabora Station to Dar III : <span class="disp">AH[AH3] - </span><span>Tsh.0.0 (Cash on Pickup)</span></strong></li>
-                        <li>Boaring Point : <span class="disp"> Dar es salaam Mbezi</span></li>
-                        <li>Pass Number : <span class="required">#7487684</span></li>
+                        <li><strong>Tabora to Mpanda <span class="disp">AH[AH3] - </span><span>Tsh.0.0 (Cash on Pickup)</span></strong></li>
+                        <li>Boarding Point : <span class="disp"> URAMBO </span></li>
+                        <li>Pass Number : <span class="required">#12345</span></li>
                         <li>&nbsp;<li>
                         <li><a href="#">Quick Fill</a> <a href="#">Payments</a> <a href="#">Booking</a></li>
                         <li>Conductor App</li>
@@ -233,21 +233,10 @@
                     </ul>
                     <br>
                     <ul class="taglist" style="width: 100%;list-style-type: none;">
-                        <li class="heading">#TO(83IL Jumaa - <span class="required">Payment Received</span></li>
-                        <li><strong>Dar Station to Tabora III : <span class="disp">AH[AH3] - </span><span>Tsh.0.0 (Cash on Pickup)</span></strong></li>
-                        <li>Boaring Point : <span class="disp"> Dar es salaam Mbezi</span></li>
-                        <li>Pass Number : <span class="required">#7490347684</span></li>
-                        <li>&nbsp;<li>
-                        <li><a href="#">Quick Fill</a> <a href="#">Payments</a> <a href="#">Booking</a></li>
-                        <li>Conductor App</li>
-                        <li><a href="">Send Email</a> <a href="">Send SMS</a></li>
-                    </ul>
-                    <br>
-                    <ul class="taglist" style="width: 100%;list-style-type: none;">
-                        <li class="heading">#TON3IL John - <span class="required">Payment Received</span></li>
-                        <li><strong>Moro Station to Dar III : <span class="disp">AH[AH3] - </span><span>Tsh.0.0 (Cash on Pickup)</span></strong></li>
-                        <li>Boaring Point : <span class="disp"> Dar es salaam Mbezi</span></li>
-                        <li>Pass Number : <span class="required">#7487684</span></li>
+                        <li class="heading">#TO83IL Khamis - <span class="required">Payment Received</span></li>
+                        <li><strong>Tabora to Mpanda <span class="disp">AH[AH3] - </span><span>Tsh.0.0 (Cash on Pickup)</span></strong></li>
+                        <li>Boarding Point : <span class="disp"> USINGA</span></li>
+                        <li>Pass Number : <span class="required">#13345</span></li>
                         <li>&nbsp;<li>
                         <li><a href="#">Quick Fill</a> <a href="#">Payments</a> <a href="#">Booking</a></li>
                         <li>Conductor App</li>
@@ -256,9 +245,20 @@
                     <br>
                     <ul class="taglist" style="width: 100%;list-style-type: none;">
                         <li class="heading">#TON3IL John - <span class="required">Payment Received</span></li>
-                        <li><strong>Tabora Station to Dar III : <span class="disp">AH[AH3] - </span><span>Tsh.0.0 (Cash on Pickup)</span></strong></li>
-                        <li>Boaring Point : <span class="disp"> Dar es salaam Mbezi</span></li>
-                        <li>Pass Number : <span class="required">#7487684</span></li>
+                        <li><strong>Tabora to Mpanda <span class="disp">AH[AH3] - </span><span>Tsh.0.0 (Cash on Pickup)</span></strong></li>
+                        <li>Boaring Point : <span class="disp"> URAMBO </span></li>
+                        <li>Pass Number : <span class="required">#14345</span></li>
+                        <li>&nbsp;<li>
+                        <li><a href="#">Quick Fill</a> <a href="#">Payments</a> <a href="#">Booking</a></li>
+                        <li>Conductor App</li>
+                        <li><a href="">Send Email</a> <a href="">Send SMS</a></li>
+                    </ul>
+                    <br>
+                    <ul class="taglist" style="width: 100%;list-style-type: none;">
+                        <li class="heading">#TON3IL Juma khan - <span class="required">Payment Received</span></li>
+                        <li><strong>Tabora to Mpanda <span class="disp">AH[AH3] - </span><span>Tsh.0.0 (Cash on Pickup)</span></strong></li>
+                        <li>Boarding Point : <span class="disp"> URAMBO</span></li>
+                        <li>Pass Number : <span class="required">#15345</span></li>
                         <li>&nbsp;<li>
                         <li><a href="#">Quick Fill</a> <a href="#">Payments</a> <a href="#">Booking</a></li>
                         <li>Conductor App</li>
@@ -267,8 +267,8 @@
                     <br>
                     <ul class="taglist" style="width: 100%;list-style-type: none;">
                         <li class="heading">#TON3IL John - <span class="required">Payment Received</span></li>
-                        <li><strong>Tabora Station to Dar III : <span class="disp">AH[AH3] - </span><span>Tsh.0.0 (Cash on Pickup)</span></strong></li>
-                        <li>Boaring Point : <span class="disp"> Dar es salaam Mbezi</span></li>
+                        <li><strong>Tabora to Mpanda <span class="disp">AH[AH3] - </span><span>Tsh.0.0 (Cash on Pickup)</span></strong></li>
+                        <li>Boarding Point : <span class="disp"> MPANDA</span></li>
                         <li>Pass Number : <span class="required">#7487684</span></li>
                         <li>&nbsp;<li>
                         <li><a href="#">Quick Fill</a> <a href="#">Payments</a> <a href="#">Booking</a></li>

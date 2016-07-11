@@ -37,8 +37,8 @@
                     <td>AH1</td>
                     <td>Boarding</td>
                     <td>30/06/2016</td>
-                    <td>20.00.00</td>
-                    <td>Dodoma</td>
+                    <td>08.00.00</td>
+                    <td>Dar es Salaam</td>
                     <td>Juma Khamis</td>
                     <td>halima Kimwana</td>
                     <td></td>
@@ -57,8 +57,8 @@
                     <td>AH2</td>
                     <td>Boarding</td>
                     <td>31/06/2016</td>
-                    <td>20.00.00</td>
-                    <td>Dodoma</td>
+                    <td>08.00.00</td>
+                    <td>Dar es Salaam</td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -76,8 +76,8 @@
                     <td>AH3</td>
                     <td>Boarding</td>
                     <td>30/06/2016</td>
-                    <td>20.00.00</td>
-                    <td>Dodoma</td>
+                    <td>08.00.00</td>
+                    <td>Tabora</td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -95,10 +95,10 @@
                     <td>AH4</td>
                     <td>Boarding</td>
                     <td>30/06/2016</td>
-                    <td>20.00.00</td>
-                    <td>Dodoma</td>
-                    <td></td>
-                    <td></td>
+                    <td>08.00.00</td>
+                    <td>Tabora</td>
+                    <td>chale</td>
+                    <td>Anna</td>
                     <td></td>
                     <td></td>
                     <td>29/06/2016 15.32.08</td>
@@ -114,8 +114,8 @@
                     <td>AH1</td>
                     <td>Boarding</td>
                     <td>30/06/2016</td>
-                    <td>20.00.00</td>
-                    <td>Dodoma</td>
+                    <td>08.00.00</td>
+                    <td>Posta</td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -165,13 +165,13 @@
                         <tbody>
                         <tr>
                             <td>F6AO1K</td>
-                            <td>Dar es salaam</td>
-                            <td>Tabora phase II</td>
-                            <td>Dar es Salaam to Tabora</td>
+                            <td><strong>Tabora</strong></td>
+                            <td><strong>Mpanda</strong></td>
+                            <td>Tabora - Kaliua to Mpanda</td>
                             <td>AH1</td>
                             <td>31/06/2016</td>
-                            <td>20.00.00</td>
-                            <td>Pugu</td>
+                            <td>08.00.00</td>
+                            <td></td>
                             <td>RUVU</td>
                             <td>Mwajuma Khamis</td>
                             <td>+255-767887923</td>
@@ -184,13 +184,13 @@
                         </tr>
                         <tr>
                             <td>F6AO2K</td>
-                            <td>Dar es salaam</td>
-                            <td>Tabora phase II</td>
-                            <td>Dar es Salaam to Tabora</td>
-                            <td>AH1</td>
+                            <td><strong>Tabora</strong></td>
+                            <td><strong>Mpanda</strong></td>
+                            <td>Tabora - Kaliua to Mpanda</td>
+                            <td>AH3</td>
                             <td>31/06/2016</td>
-                            <td>20.00.00</td>
-                            <td>Pugu</td>
+                            <td>08.00.00</td>
+                            <td></td>
                             <td>MSUA</td>
                             <td>Kimwana Juma</td>
                             <td>+255-767887923</td>
@@ -202,13 +202,13 @@
                             <td>Cash on pickup</td>
                         </tr>                        <tr>
                             <td>F6AO3K</td>
-                            <td>Dar es salaam</td>
-                            <td>Tabora phase II</td>
-                            <td>Dar es Salaam to Tabora</td>
-                            <td>AH1</td>
+                            <td><strong>Tabora</strong></td>
+                            <td><strong>Mpanda</strong></td>
+                            <td>Tabora - Kaliua to Mpanda</td>
+                            <td>AH2</td>
                             <td>31/06/2016</td>
-                            <td>20.00.00</td>
-                            <td>Pugu</td>
+                            <td>08.00.00</td>
+                            <td></td>
                             <td>Ngerengere</td>
                             <td>Jumanne Kimwana</td>
                             <td>+255-767887923</td>
@@ -220,13 +220,13 @@
                             <td>Cash on pickup</td>
                         </tr>                        <tr>
                             <td>F6AO4K</td>
-                            <td>Dar es salaam</td>
-                            <td>Tabora phase II</td>
-                            <td>Dar es Salaam to Tabora</td>
-                            <td>AH1</td>
+                            <td><strong>Tabora</strong></td>
+                            <td><strong>Mpanda</strong></td>
+                            <td>Tabora - Kaliua to Mpanda</td>
+                            <td>AH2</td>
                             <td>31/06/2016</td>
-                            <td>20.00.00</td>
-                            <td>Pugu</td>
+                            <td>08.00.00</td>
+                            <td></td>
                             <td>KINONKO</td>
                             <td>David</td>
                             <td>+255-767887923</td>
@@ -238,13 +238,13 @@
                             <td>Cash on pickup</td>
                         </tr>                        <tr>
                             <td>F6AO5K</td>
-                            <td>Dar es salaam</td>
-                            <td>Tabora phase II</td>
-                            <td>Dar es Salaam to Tabora</td>
-                            <td>AH1</td>
+                            <td><strong>Tabora</strong></td>
+                            <td><strong>Mpanda</strong></td>
+                            <td>Tabora - Kaliua to Mpanda</td>
+                            <td>AH5</td>
                             <td>31/06/2016</td>
-                            <td>20.00.00</td>
-                            <td>Pugu</td>
+                            <td>08.00.00</td>
+                            <td></td>
                             <td>MAZIMBU</td>
                             <td>halima Kimwana</td>
                             <td>+255-767887923</td>

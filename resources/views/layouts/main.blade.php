@@ -2,7 +2,8 @@
 <style type="text/css">
 .panel {
   padding: 15px;
-  margin-bottom: 20px;
+  /*margin-bottom: 20px;*/
+    margin-top: -13px;
   background-color: #FFFFFF;
   border: 3px solid #666666;
   border-radius: 4px;
@@ -89,7 +90,7 @@
     <li role="presentation"><a href="{{ url('/') }}">Dashboards</a></li>
     <li role="presentation"><a href="{{ url('train-trips') }}">Trips</a></li>
       <li role="presentation"><a href="{{ url('stop-fares') }}">Fares</a></li>
-    <li role="presentation"><a href="#">City</a></li>
+    <li role="presentation"><a href="{{ url('cities') }}">City</a></li>
     <li role="presentation"><a href="{{ url('timetable') }}">TimeTables</a></li>
       <li class="dropdown">
       <a class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
@@ -101,7 +102,7 @@
           <li><a href="#">Conductors</a></li>
       </ul>
       </li>
-    <li role="presentation"><a href="#">Booking</a></li>
+    <li role="presentation"><a href="{{ url('booking') }}">Booking</a></li>
     <li role="presentation"><a href="{{ url('payments-details') }}">Payment Details</a></li>
       <li class="dropdown">
           <a class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">

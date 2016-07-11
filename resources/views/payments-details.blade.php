@@ -23,72 +23,84 @@
                 </thead>
                 <tbody>
                 <tr>
-                    <td>
-                        <a href="#"  data-toggle="modal" data-target="#myLargeModal">Booking (5)</a></td>
+                    <td><a href="#">Booking</a></td>
                     <td>ECO90</td>
-                    <td>1586784</td>
-                    <td>8838974</td>
+                    <td>RY783</td>
+                    <td>AS475</td>
                     <td>Transaction Successful</td>
                     <td>1,500.00</td>
-                    <td>Juma Khamis</td>
+                    <td>John</td>
                     <td>slp 12 Kinondoni</td>
                     <td>Dar es salaam</td>
                     <td>Magomeni</td>
                     <td>Mapipa</td>
                     <td>Tanzania</td>
-                    <td>0766877676</td>
-                    <td>kbisansaba@gmail.com</td>
+                    <td>0564677288</td>
+                    <td>one@gmail.com</td>
                 </tr>
                 <tr>
-                    <td>
-                        <a href="#"  data-toggle="modal" data-target="#myLargeModal">Booking (5)</a></td>
-                    <td>ECO90</td>
-                    <td>1586784</td>
-                    <td>8838974</td>
+                    <td><a href="#">Booking</a></td>
+                    <td>ECO91</td>
+                    <td>EI8373</td>
+                    <td>AS8475</td>
                     <td>Transaction Successful</td>
                     <td>1,500.00</td>
-                    <td>Juma Khamis</td>
+                    <td>Khamis</td>
                     <td>slp 12 Kinondoni</td>
                     <td>Dar es salaam</td>
                     <td>Magomeni</td>
                     <td>Mapipa</td>
                     <td>Tanzania</td>
-                    <td>0766877676</td>
-                    <td>kbisansaba@gmail.com</td>
+                    <td>0678477783</td>
+                    <td>two@gmail.com</td>
                 </tr>
                 <tr>
-                    <td>
-                        <a href="#"  data-toggle="modal" data-target="#myLargeModal">Booking (5)</a></td>
-                    <td>ECO90</td>
-                    <td>1586784</td>
-                    <td>8838974</td>
+                    <td><a href="#">Booking</a></td>
+                    <td>ECO92</td>
+                    <td>EU467</td>
+                    <td>ASB467</td>
                     <td>Transaction Successful</td>
                     <td>1,500.00</td>
-                    <td>Juma Khamis</td>
+                    <td>Juma Khan</td>
                     <td>slp 12 Kinondoni</td>
                     <td>Dar es salaam</td>
                     <td>Magomeni</td>
                     <td>Mapipa</td>
                     <td>Tanzania</td>
                     <td>0766877676</td>
-                    <td>kbisansaba@gmail.com</td>
+                    <td>three@gmail.com</td>
                 </tr>
                 <tr>
-                    <td>
-                        <a href="#"  data-toggle="modal" data-target="#myLargeModal">Booking (5)</a></td>
-                    <td>ECO90</td>
-                    <td>1586784</td>
-                    <td>8838974</td>
+                    <td><a href="#">Booking</a></td>
+                    <td>ECO93</td>
+                    <td>QRY524</td>
+                    <td>TY2367</td>
                     <td>Transaction Successful</td>
                     <td>1,500.00</td>
-                    <td>Juma Khamis</td>
+                    <td>Mwanaidi Juma</td>
                     <td>slp 12 Kinondoni</td>
                     <td>Dar es salaam</td>
                     <td>Magomeni</td>
                     <td>Mapipa</td>
                     <td>Tanzania</td>
-                    <td>0766877676</td>
-                    <td>kbisansaba@gmail.com</td>
+                    <td>0788675789</td>
+                    <td>four@gmail.com</td>
+                </tr>
+                <tr>
+                    <td><a href="#">Booking</a></td>
+                    <td>ADC853</td>
+                    <td>1578JF</td>
+                    <td>RTY423</td>
+                    <td>Transaction Successful</td>
+                    <td>1,500.00</td>
+                    <td>Juma</td>
+                    <td>slp 12 Kinondoni</td>
+                    <td>Dar es salaam</td>
+                    <td>Magomeni</td>
+                    <td>Mapipa</td>
+                    <td>Tanzania</td>
+                    <td>0768857466</td>
+                    <td>five@gmail.com</td>
                 </tr>
                 </tbody>
             </table>
@@ -96,14 +108,6 @@
     </div>
     <div class="modal fade modal-style6" id="myLargeModal" tabindex="-1" data-backdrop="dynamic" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog modal-lg">
-            {{--<div class="modal-content">--}}
-            {{--<div class="modal-header">--}}
-            {{--<button type="button" class="close" data-dismiss="modal">--}}
-            {{--<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>--}}
-            {{--</button>--}}
-            {{--<h4 class="modal-title" id="myModalLabel">New Request</h4>--}}
-            {{--</div>--}}
-            {{--<div class="modal-body" id="positiontoadd" >--}}
             <table class="table table-bordered table-striped  table-condensed table-responsive" width="100" style="background-color: white" >
                 <thead style="background-color: #435970; color: white; font-size: 12px; font-weight: bold">
                 <tr>
