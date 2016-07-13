@@ -1,6 +1,6 @@
 @include('layouts.header')
 <style type="text/css">
-    .panel {
+    .panel1 {
         padding: 15px;
         margin-bottom: 20px;
         background-color: #f7f7f7;
@@ -8,6 +8,7 @@
         border-radius: 4px;
         -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
         box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+        font-family: DejaVu Sans, 'trebuchet ms', verdana, sans-serif;
     }
     .panel-primary .panel-heading {
         color: #ffffff;
@@ -57,6 +58,19 @@
         background-color: #8DC0DE;
         border: 1px solid #09048d;
     }
+            .stats-number{
+            font-size: 20px !important;
+            color: black;
+            font-weight: bold;
+        }
+        .stats-icon{
+            float: right !important;
+        }
+        .lead-stats{
+            text-decoration: none !important;
+            font-family: DejaVu Sans, 'trebuchet ms', verdana, sans-serif;
+            color: black;
+        }
 </style>
 <script>
     $(document).ready(function () {
@@ -127,7 +141,7 @@
         </li>
     </ul>
     <br>
-    <div class="panel" >
+    <div class="panel panel1" >
         <div class="panel-body">
     <div class="starter-template">
         <div style="margin-bottom: 20px; text-align: center">
@@ -142,45 +156,78 @@
             </select>
         </div>
         <div class="row" style="background-color: #e7e7e7; margin-left: -30px;margin-right: -30px">
-            {{----}}
             <div class="col-md-4">
-                <!-- <div class="widgetcontent"> -->
-                <div class="row-fluid">
-                    <div class="profile-left">
-                        <span><strong>Total Travellers</strong> <a href="#" class="pull-right"></a></span>
-                        <!-- <div style="width: 300px;margin-left: 15px;margin-top: 0px"> -->
-                        <hr>
-                        <!-- <ol></ol> -->
-                        <ul class="taglist" style="width: 100%;list-style-type: none;">
-                            <li class="heading">#L303F John - <span class="required">Payment Received</span></li>
-                            <li>Tabora to Mpanda <span class="badge badge-warning">Tsh 10,000 /=</span></li>
-                            <li><a href="#">Quick Fill</a> <a href="#">Payments</a> <a href="#">Booking</a></li>
-                            <li>Web Order</li>
-                            <li><a href="">Send Email</a> <a href="">Send SMS</a></li>
-                        </ul>
-                        <br>
-                        <ul class="taglist" style="width: 100%;list-style-type: none;">
-                            <li class="heading">#KJ9303F Khamis - <span class="required">Payment Received</span></li>
-                            <li>Tabora to Mpanda <span class="badge badge-warning">Tsh 10,000 /=</span></li>
-                            <li><a href="#">Quick Fill</a> <a href="#">Payments</a> <a href="#">Booking</a></li>
-                            <li>Web Order</li>
-                            <li><a href="">Send Email</a> <a href="">Send SMS</a></li>
-                        </ul>
-                        <br>
-                        <ul class="taglist" style="width: 100%;list-style-type: none;">
-                            <li class="heading">#L3093F Shamsa - <span class="required">Payment Received</span></li>
-                            <li>Tabora to Mpanda <span class="badge badge-warning">Tsh 10,000 /=</span></li>
-                            <li><a href="#">Quick Fill</a> <a href="#">Payments</a> <a href="#">Booking</a></li>
-                            <li>Web Order</li>
-                            <li><a href="">Send Email</a> <a href="">Send SMS</a></li>
-                        </ul>
+                <span style="margin-left:15px;margin-top:10px;"><strong>Total Collection of The day</strong> <a href="#" class="pull-right"></a></span>
+                <hr>
+                <div class="col-md-12 col-xs-6 col-small-enlarge"><!-- col-md-6 start here -->
+                    <div id="dash_0" class="panel panel-default"><!-- Start .panel -->
+                        <!-- <div class="panel-heading"></div> -->
+                        <div class="panel-body">
+                            <span style="color:#00003e;font-weight:bold;">Dar es salaam to Tabora</span>
+                            <a class="lead-stats" href="#">
+                                <span class="stats-number"></span>
+                                <span class="stats-icon"><i class="fa fa-money fa-3x color-green"></i></span>
+                                <h5>Today's Collection <strong class="pull-right">Tsh 100,200.00 /=</strong></h5>
+                            </a>
+                        </div>
                     </div>
-                    <!-- </div> -->
-                </div><!--widgetcontent-->
+                </div><!-- col-md-6 end here -->
+                <div class="col-md-12 col-xs-6 col-small-enlarge"><!-- col-md-6 start here -->
+                    <div id="dash_0" class="panel panel-default"><!-- Start .panel -->
+                        <!-- <div class="panel-heading"></div> -->
+                        <div class="panel-body">
+                            <span style="color:#00003e;font-weight:bold;">Dar es Salaam to Kigoma</span>
+                            <a class="lead-stats" href="#">
+                                <span class="stats-number"></span>
+                                <span class="stats-icon"><i class="fa fa-money fa-3x color-green"></i></span>
+                                <h5>Today's Collection <strong class="pull-right">Tsh 100,200.00 /=</strong></h5>
+                            </a>
+                        </div>
+                    </div>
+                </div><!-- col-md-6 end here -->
+                <div class="col-md-12 col-xs-6 col-small-enlarge"><!-- col-md-6 start here -->
+                    <div id="dash_0" class="panel panel-default"><!-- Start .panel -->
+                        <!-- <div class="panel-heading"></div> -->
+                        <div class="panel-body">
+                            <span style="color:#00003e;font-weight:bold;">Tabora - kaliua to Kigoma</span>
+                            <a class="lead-stats" href="#">
+                                <span class="stats-number"></span>
+                                <span class="stats-icon"><i class="fa fa-money fa-3x color-green"></i></span>
+                                <h5>Today's Collection <strong class="pull-right">Tsh 100,200.00 /=</strong></h5>
+                            </a>
+                        </div>
+                    </div>
+                </div><!-- col-md-6 end here -->
+                <div class="col-md-12 col-xs-6 col-small-enlarge"><!-- col-md-6 start here -->
+                    <div id="dash_0" class="panel panel-default"><!-- Start .panel -->
+                        <!-- <div class="panel-heading"></div> -->
+                        <div class="panel-body">
+                            <span style="color:#00003e;font-weight:bold;">Tabora - Kaliua to Mpanda</span>
+                            <a class="lead-stats" href="#">
+                                <span class="stats-number"></span>
+                                <span class="stats-icon"><i class="fa fa-money fa-3x color-green"></i></span>
+                                <h5>Today's Collection <strong class="pull-right">Tsh 100,200.00 /=</strong></h5>
+                            </a>
+                        </div>
+                    </div>
+                </div><!-- col-md-6 end here -->
+                <div class="col-md-12 col-xs-6 col-small-enlarge"><!-- col-md-6 start here -->
+                    <div id="dash_0" class="panel panel-default"><!-- Start .panel -->
+                        <!-- <div class="panel-heading"></div> -->
+                        <div class="panel-body">
+                            <span style="color:#00003e;font-weight:bold;">Ubungo To Posta</span>
+                            <a class="lead-stats" href="#">
+                                <span class="stats-number"></span>
+                                <span class="stats-icon"><i class="fa fa-money fa-3x color-green"></i></span>
+                                <h5>Today's Collection <strong class="pull-right">Tsh 100,200.00 /=</strong></h5>
+                            </a>
+                        </div>
+                    </div>
+                </div><!-- col-md-6 end here -->
             </div>
             <div class="col-md-4">
                 <div class="profile-left">
-                    <span><strong>Daily Issues</strong> <a href="#" class="pull-right">Add New</a></span>
+                    <span style="margin-left:15px;margin-top:10px;"><strong>Daily Issues</strong> <a href="#" class="pull-right">Add New</a></span>
                     <hr style="">
                     <!-- <div style="width: 300px;margin-left: 15px;margin-top: 0px"> -->
                     <ul class="taglist">
@@ -195,93 +242,99 @@
                         <li>About Bus Clearning <a href="mailto:info@makgrp.com">info@makgrp.com</a> - <span class='required'>New</span></li>
                     </ul>
                 </div>
-                <hr style="">
+                <hr>
                 <div class="profile-left">
-                    <span><strong>Inquiry's</strong> <a href="#" class="pull-right">Add New</a></span>
-                    <hr style="">
+                    <span  style="margin-left:5px;margin-top:10px;"><strong>Train's Schedule</strong>
+                        {{--<a href="#" class="pull-right">Add New</a>--}}
+                    </span>
+                    <hr style="margin-top: 1px;">
                     <!-- <div style="width: 300px;margin-left: 15px;margin-top: 0px"> -->
-                    <ul class="taglist" style="width: 100%;">
-                        <li>Test <span class="required">New</span></li>
-                        <li>Dar es Salaam <span class="required">New</span></li>
-                        <li>Inquiry <span class="required">New</span></li>
-                        <li>Stations <span class="required">New</span></li>
-                        <li>Dar to Tabora <span class="required">New</span></li>
-                        <li>Dar Station <span class="required">New</span></li>
-                        <li>Customer will Call <span class="required">New</span></li>
-                        <li>Tabora Station<span class="required">New</span></li>
-                        <li>Inquiry() <span class="required">New</span></li>
-                        <li>Customer will Call <span class="required">New</span></li>
-                        <li>Customer will visit() <span class="required">New</span></li>
-                        <li>Inquiry <span class="required">New</span></li>
-                        <li>Customer will Call <span class="required">New</span></li>
-                    </ul>
+                    <table class="table table-condensed table-striped table-bordered" style="background-color: white">
+                        <thead>
+                        <tr><td colspan="5" align="center" style="background-color:#d2d2d2;font-weight: bold">Tabora to Mpanda</td></tr>
+                        <tr><th></th><th>Days</th><th>Departure Time</th><th>Arrival Time</th><th>Status</th></tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td rowspan="2">Tabora</td>
+                            <td width="">Wed</td>
+                            <td>21:00</td>
+                            <td rowspan="2"></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Sat</td>
+                            <td>21:00</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">Mpanda</td>
+                            <td>Thr</td>
+                            <td>13:00</td>
+                            <td>10:30</td>
+                            <td>Intime</td>
+                        </tr>
+                        <tr>
+                            <td>Sun</td>
+                            <td>13:00</td>
+                            <td>10:30</td>
+                            <td>Scheduled</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">Tabora</td>
+                            <td>Fri</td>
+                            <td rowspan="2"></td>
+                            <td>02:45</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Mon</td>
+                            <td>02:45</td>
+                            <td></td>
+                        </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="profile-left">
-                    <span><strong>Total Bookings</strong></span>
+                    <span style="margin-left:15px;margin-top:10px;"><strong>Total Bookings</strong></span>
                     <hr>
                     <ul class="taglist" style="width: 100%;list-style-type: none;">
-                        <li class="heading">#TON3IL John - <span class="required">Payment Received</span></li>
-                        <li><strong>Tabora to Mpanda <span class="disp">AH[AH3] - </span><span>Tsh.0.0 (Cash on Pickup)</span></strong></li>
-                        <li>Boarding Point : <span class="disp"> URAMBO </span></li>
-                        <li>Pass Number : <span class="required">#12345</span></li>
-                        <li>&nbsp;<li>
-                        <li><a href="#">Quick Fill</a> <a href="#">Payments</a> <a href="#">Booking</a></li>
-                        <li>Conductor App</li>
-                        <li><a href="">Send Email</a> <a href="">Send SMS</a></li>
+                        <li class="heading">TTE No1 John khamis - (<small class="required">Payment Received</small>)</li>
+                        <li><strong>Tabora to Mpanda <span class="pull-right">Tsh 2,000,000/=</span></strong></li>
+                        <li>Machine Serial No : <span class="required">KWLF008461</span></li>
+                        {{--<li>&nbsp;<li>--}}
+                        <li><strong><a href="mailto:info@makgrp.com">Send Email</a> <a href="#">Send SMS</a></strong></li>
                     </ul>
-                    <br>
                     <ul class="taglist" style="width: 100%;list-style-type: none;">
-                        <li class="heading">#TO83IL Khamis - <span class="required">Payment Received</span></li>
-                        <li><strong>Tabora to Mpanda <span class="disp">AH[AH3] - </span><span>Tsh.0.0 (Cash on Pickup)</span></strong></li>
-                        <li>Boarding Point : <span class="disp"> USINGA</span></li>
-                        <li>Pass Number : <span class="required">#13345</span></li>
-                        <li>&nbsp;<li>
-                        <li><a href="#">Quick Fill</a> <a href="#">Payments</a> <a href="#">Booking</a></li>
-                        <li>Conductor App</li>
-                        <li><a href="">Send Email</a> <a href="">Send SMS</a></li>
+                        <li class="heading">TTE No2 Christian - (<small class="required">Payment Received</small>)</li>
+                        <li><strong>Tabora to Mpanda <span class="pull-right">Tsh 2,000/=</span></strong></li>
+                        <li>Machine Serial No : <span class="required">KWLF008162</span></li>
+                        <li><strong><a href="mailto:info@makgrp.com">Send Email</a> <a href="#">Send SMS</a></strong></li>
                     </ul>
-                    <br>
                     <ul class="taglist" style="width: 100%;list-style-type: none;">
-                        <li class="heading">#TON3IL John - <span class="required">Payment Received</span></li>
-                        <li><strong>Tabora to Mpanda <span class="disp">AH[AH3] - </span><span>Tsh.0.0 (Cash on Pickup)</span></strong></li>
-                        <li>Boaring Point : <span class="disp"> URAMBO </span></li>
-                        <li>Pass Number : <span class="required">#14345</span></li>
-                        <li>&nbsp;<li>
-                        <li><a href="#">Quick Fill</a> <a href="#">Payments</a> <a href="#">Booking</a></li>
-                        <li>Conductor App</li>
-                        <li><a href="">Send Email</a> <a href="">Send SMS</a></li>
+                        <li class="heading">TTE No3 John David - (<small class="required">Payment Received</small>)</li>
+                        <li><strong>Tabora to Mpanda <span class="pull-right">Tsh 12,000,000/=</span></strong></li>
+                        <li>Machine Serial No : <span class="required">KWLF008163</span></li>
+                        <li><strong><a href="mailto:info@makgrp.com">Send Email</a> <a href="#">Send SMS</a></strong></li>
                     </ul>
-                    <br>
                     <ul class="taglist" style="width: 100%;list-style-type: none;">
-                        <li class="heading">#TON3IL Juma khan - <span class="required">Payment Received</span></li>
-                        <li><strong>Tabora to Mpanda <span class="disp">AH[AH3] - </span><span>Tsh.0.0 (Cash on Pickup)</span></strong></li>
-                        <li>Boarding Point : <span class="disp"> URAMBO</span></li>
-                        <li>Pass Number : <span class="required">#15345</span></li>
-                        <li>&nbsp;<li>
-                        <li><a href="#">Quick Fill</a> <a href="#">Payments</a> <a href="#">Booking</a></li>
-                        <li>Conductor App</li>
-                        <li><a href="">Send Email</a> <a href="">Send SMS</a></li>
+                        <li class="heading">TTE No3 Kurwa J. khamis - (<small class="required">Payment Received</small>)</li>
+                        <li><strong>Tabora to Mpanda <span class="pull-right">Tsh 21,020,100/=</span></strong></li>
+                        <li>Machine Serial No : <span class="required">KWLF008164</span></li>
+                        <li><strong><a href="mailto:info@makgrp.com">Send Email</a> <a href="#">Send SMS</a></strong></li>
                     </ul>
-                    <br>
                     <ul class="taglist" style="width: 100%;list-style-type: none;">
-                        <li class="heading">#TON3IL John - <span class="required">Payment Received</span></li>
-                        <li><strong>Tabora to Mpanda <span class="disp">AH[AH3] - </span><span>Tsh.0.0 (Cash on Pickup)</span></strong></li>
-                        <li>Boarding Point : <span class="disp"> MPANDA</span></li>
-                        <li>Pass Number : <span class="required">#7487684</span></li>
-                        <li>&nbsp;<li>
-                        <li><a href="#">Quick Fill</a> <a href="#">Payments</a> <a href="#">Booking</a></li>
-                        <li>Conductor App</li>
-                        <li><a href="">Send Email</a> <a href="">Send SMS</a></li>
+                        <li class="heading">TTE No5 Yohana J. khamis - (<small class="required">Payment Received</small>)</li>
+                        <li><strong>Tabora to Mpanda <span class="pull-right">Tsh 2,100,000/=</span></strong></li>
+                        <li>Machine Serial No : <span class="required">KWLF008165</span></li>
+                        <li><strong><a href="mailto:info@makgrp.com">Send Email</a> <a href="#">Send SMS</a></strong></li>
                     </ul>
-                    <br>
-                </div>
             </div>
-
-
+            </div>
         </div>
-    </div>
+        </div>
         </div>
     </div>
 </div><!-- /.container -->

@@ -15,9 +15,7 @@
                     <th></th>
                     <th>Route</th>
                     <th>Train</th>
-                    <th>Trip</th>
                     <th>Status</th>
-                    <th>Record Data</th>
                     <th>Start Time</th>
                     <th>Current Stop</th>
                     <th>Locomotive Operators</th>
@@ -34,9 +32,7 @@
                     <td>Booking </td>
                     <td width="150">Dar es Salaam to Tabora</td>
                     <td>4536 TRL</td>
-                    <td>AH1</td>
                     <td>Boarding</td>
-                    <td>30/06/2016</td>
                     <td>08.00.00</td>
                     <td>Dar es Salaam</td>
                     <td>Juma Khamis</td>
@@ -54,9 +50,7 @@
                     <td><span style="text-decoration: underline">Booking</span></td>
                     <td>Dar es Salaam to Kigoma</td>
                     <td>2345 TRL</td>
-                    <td>AH2</td>
                     <td>Boarding</td>
-                    <td>31/06/2016</td>
                     <td>08.00.00</td>
                     <td>Dar es Salaam</td>
                     <td></td>
@@ -73,9 +67,7 @@
                     <td><span style="text-decoration: underline">Booking</span></td>
                     <td>Tabora - kaliua to Kigoma</td>
                     <td>8764 TRL</td>
-                    <td>AH3</td>
                     <td>Boarding</td>
-                    <td>30/06/2016</td>
                     <td>08.00.00</td>
                     <td>Tabora</td>
                     <td></td>
@@ -92,9 +84,7 @@
                     <td><a href="#"  data-toggle="modal" data-target="#myLargeModal">Booking (5)</a></td>
                     <td>Tabora - Kaliua to Mpanda</td>
                     <td>6476 TRL</td>
-                    <td>AH4</td>
                     <td>Boarding</td>
-                    <td>30/06/2016</td>
                     <td>08.00.00</td>
                     <td>Tabora</td>
                     <td>chale</td>
@@ -111,9 +101,7 @@
                     <td><span style="text-decoration: underline">Booking</span></td>
                     <td>Ubungo To Posta</td>
                     <td>4533 TRL</td>
-                    <td>AH1</td>
                     <td>Boarding</td>
-                    <td>30/06/2016</td>
                     <td>08.00.00</td>
                     <td>Posta</td>
                     <td></td>
@@ -237,6 +225,196 @@
                             <td>80.00</td>
                             <td>Cash on pickup</td>
                         </tr>                        <tr>
+                            <td>F6AO5K</td>
+                            <td><strong>Tabora</strong></td>
+                            <td><strong>Mpanda</strong></td>
+                            <td>Tabora - Kaliua to Mpanda</td>
+                            <td>AH5</td>
+                            <td>31/06/2016</td>
+                            <td>08.00.00</td>
+                            <td></td>
+                            <td>MAZIMBU</td>
+                            <td>halima Kimwana</td>
+                            <td>+255-767887923</td>
+                            <td>kjom@hfj.com</td>
+                            <td>Payments received</td>
+                            <td>31</td>
+                            <td>12,700</td>
+                            <td>80.00</td>
+                            <td>Cash on pickup</td>
+                        </tr>
+                        <tr>
+                            <td>F6AO5K</td>
+                            <td><strong>Tabora</strong></td>
+                            <td><strong>Mpanda</strong></td>
+                            <td>Tabora - Kaliua to Mpanda</td>
+                            <td>AH5</td>
+                            <td>31/06/2016</td>
+                            <td>08.00.00</td>
+                            <td></td>
+                            <td>MAZIMBU</td>
+                            <td>halima Kimwana</td>
+                            <td>+255-767887923</td>
+                            <td>kjom@hfj.com</td>
+                            <td>Payments received</td>
+                            <td>31</td>
+                            <td>12,700</td>
+                            <td>80.00</td>
+                            <td>Cash on pickup</td>
+                        </tr>
+                        <tr>
+                            <td>F6AO5K</td>
+                            <td><strong>Tabora</strong></td>
+                            <td><strong>Mpanda</strong></td>
+                            <td>Tabora - Kaliua to Mpanda</td>
+                            <td>AH5</td>
+                            <td>31/06/2016</td>
+                            <td>08.00.00</td>
+                            <td></td>
+                            <td>MAZIMBU</td>
+                            <td>halima Kimwana</td>
+                            <td>+255-767887923</td>
+                            <td>kjom@hfj.com</td>
+                            <td>Payments received</td>
+                            <td>31</td>
+                            <td>12,700</td>
+                            <td>80.00</td>
+                            <td>Cash on pickup</td>
+                        </tr>
+                        <tr>
+                            <td>F6AO5K</td>
+                            <td><strong>Tabora</strong></td>
+                            <td><strong>Mpanda</strong></td>
+                            <td>Tabora - Kaliua to Mpanda</td>
+                            <td>AH5</td>
+                            <td>31/06/2016</td>
+                            <td>08.00.00</td>
+                            <td></td>
+                            <td>MAZIMBU</td>
+                            <td>halima Kimwana</td>
+                            <td>+255-767887923</td>
+                            <td>kjom@hfj.com</td>
+                            <td>Payments received</td>
+                            <td>31</td>
+                            <td>12,700</td>
+                            <td>80.00</td>
+                            <td>Cash on pickup</td>
+                        </tr>
+                        <tr>
+                            <td>F6AO5K</td>
+                            <td><strong>Tabora</strong></td>
+                            <td><strong>Mpanda</strong></td>
+                            <td>Tabora - Kaliua to Mpanda</td>
+                            <td>AH5</td>
+                            <td>31/06/2016</td>
+                            <td>08.00.00</td>
+                            <td></td>
+                            <td>MAZIMBU</td>
+                            <td>halima Kimwana</td>
+                            <td>+255-767887923</td>
+                            <td>kjom@hfj.com</td>
+                            <td>Payments received</td>
+                            <td>31</td>
+                            <td>12,700</td>
+                            <td>80.00</td>
+                            <td>Cash on pickup</td>
+                        </tr>
+                        <tr>
+                            <td>F6AO5K</td>
+                            <td><strong>Tabora</strong></td>
+                            <td><strong>Mpanda</strong></td>
+                            <td>Tabora - Kaliua to Mpanda</td>
+                            <td>AH5</td>
+                            <td>31/06/2016</td>
+                            <td>08.00.00</td>
+                            <td></td>
+                            <td>MAZIMBU</td>
+                            <td>halima Kimwana</td>
+                            <td>+255-767887923</td>
+                            <td>kjom@hfj.com</td>
+                            <td>Payments received</td>
+                            <td>31</td>
+                            <td>12,700</td>
+                            <td>80.00</td>
+                            <td>Cash on pickup</td>
+                        </tr>
+                        <tr>
+                            <td>F6AO5K</td>
+                            <td><strong>Tabora</strong></td>
+                            <td><strong>Mpanda</strong></td>
+                            <td>Tabora - Kaliua to Mpanda</td>
+                            <td>AH5</td>
+                            <td>31/06/2016</td>
+                            <td>08.00.00</td>
+                            <td></td>
+                            <td>MAZIMBU</td>
+                            <td>halima Kimwana</td>
+                            <td>+255-767887923</td>
+                            <td>kjom@hfj.com</td>
+                            <td>Payments received</td>
+                            <td>31</td>
+                            <td>12,700</td>
+                            <td>80.00</td>
+                            <td>Cash on pickup</td>
+                        </tr>
+                        <tr>
+                            <td>F6AO5K</td>
+                            <td><strong>Tabora</strong></td>
+                            <td><strong>Mpanda</strong></td>
+                            <td>Tabora - Kaliua to Mpanda</td>
+                            <td>AH5</td>
+                            <td>31/06/2016</td>
+                            <td>08.00.00</td>
+                            <td></td>
+                            <td>MAZIMBU</td>
+                            <td>halima Kimwana</td>
+                            <td>+255-767887923</td>
+                            <td>kjom@hfj.com</td>
+                            <td>Payments received</td>
+                            <td>31</td>
+                            <td>12,700</td>
+                            <td>80.00</td>
+                            <td>Cash on pickup</td>
+                        </tr>
+                        <tr>
+                            <td>F6AO5K</td>
+                            <td><strong>Tabora</strong></td>
+                            <td><strong>Mpanda</strong></td>
+                            <td>Tabora - Kaliua to Mpanda</td>
+                            <td>AH5</td>
+                            <td>31/06/2016</td>
+                            <td>08.00.00</td>
+                            <td></td>
+                            <td>MAZIMBU</td>
+                            <td>halima Kimwana</td>
+                            <td>+255-767887923</td>
+                            <td>kjom@hfj.com</td>
+                            <td>Payments received</td>
+                            <td>31</td>
+                            <td>12,700</td>
+                            <td>80.00</td>
+                            <td>Cash on pickup</td>
+                        </tr>
+                        <tr>
+                            <td>F6AO5K</td>
+                            <td><strong>Tabora</strong></td>
+                            <td><strong>Mpanda</strong></td>
+                            <td>Tabora - Kaliua to Mpanda</td>
+                            <td>AH5</td>
+                            <td>31/06/2016</td>
+                            <td>08.00.00</td>
+                            <td></td>
+                            <td>MAZIMBU</td>
+                            <td>halima Kimwana</td>
+                            <td>+255-767887923</td>
+                            <td>kjom@hfj.com</td>
+                            <td>Payments received</td>
+                            <td>31</td>
+                            <td>12,700</td>
+                            <td>80.00</td>
+                            <td>Cash on pickup</td>
+                        </tr>
+                        <tr>
                             <td>F6AO5K</td>
                             <td><strong>Tabora</strong></td>
                             <td><strong>Mpanda</strong></td>
