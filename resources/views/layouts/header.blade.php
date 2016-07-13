@@ -15,5 +15,6 @@
     <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet">
     <script src="{{ asset('assets/js/jquery-1.9.1.min.js') }}"></script>
     <script src="{{ asset('assets/js/jquery-ui-1.9.2.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jscharts.js') }}" type="text/javascript" ></script>
   </head>
   <body>

@@ -119,7 +119,7 @@
               <li><a href="#">Holidays</a></li>
           </ul>
       </li>
-    <li role="presentation"><a href="#">Reports</a></li>
+    <li role="presentation"><a href="{{ url('reports') }}">Reports</a></li>
     <li   class="dropdown"><a class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
             Others
             <span class="caret"></span>

@@ -231,15 +231,12 @@
                     <hr style="">
                     <!-- <div style="width: 300px;margin-left: 15px;margin-top: 0px"> -->
                     <ul class="taglist">
-                        <li>M2KQ Cracking Noice <a href="mailto:info@makgrp.com">ae@makgrp.com</a> - <span class='required'>New</span></li>
                         <li>1TQ Door N't working <a href="mailto:info@makgrp.com">dar@makgrp.com</a> - <span class='required'>New</span></li>
-                        <li>M2KQ Water Leakage <a href="mailto:info@makgrp.com">ab@makgrp.com</a> - <span class='required'>New</span></li>
-                        <li>M245 Cracking Noice <a href="mailto:info@makgrp.com">ef@makgrp.com</a> - <span class='required'>New</span></li>
                         <li>Water Leakage <a href="mailto:info@makgrp.com">cd@makgrp.com</a> - <span class='required'>New</span></li>
                         <li>MKQ Cracking Noice <a href="mailto:info@makgrp.com">as@makgrp.com</a> - <span class='required'>New</span></li>
-                        <li>Not Working <a href="mailto:info@makgrp.com">ch@makgrp.com</a> - <span class='required'>New</span></li>
+                        <li>Train horns Not Working <a href="mailto:info@makgrp.com">ch@makgrp.com</a> - <span class='required'>New</span></li>
                         <li>Socket Broken <a href="mailto:info@makgrp.com">em@makgrp.com</a> - <span class='required'>New</span></li>
-                        <li>About Bus Clearning <a href="mailto:info@makgrp.com">info@makgrp.com</a> - <span class='required'>New</span></li>
+                        <li>About Train Clearning <a href="mailto:info@makgrp.com">info@makgrp.com</a> - <span class='required'>New</span></li>
                     </ul>
                 </div>
                 <hr>

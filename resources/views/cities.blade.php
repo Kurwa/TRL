@@ -16,32 +16,52 @@
                     <td></td>
                 </tr>
                 <tr>
-                    <td colspan="12" class="hiddenRow"><div class="accordian-body collapse" id="demo1">
-                            <table class="table table-striped">
+                    <td colspan="12" class="hiddenRow">
+                        <div class="accordian-body collapse col-md-6" align="center" id="demo1">
+                            <table class="table table-striped table-condensed">
                                 <thead>
                                 <tr>
-                                    <th>Access Key</th>
-                                    <th>Secret Key</th>
-                                    <th>Status </th>
-                                    <th> Created</th>
-                                    <th> Expires</th>
-                                    <th>Actions</th>
+                                    <th>Stations</th>
+                                    <th></th>
                                 </tr>
                                 </thead>
                                 <tbody>
                                 <tr>
-                                    <td>access-key-1</td>
-                                    <td>secretKey-1</td>
-                                    <td>Status</td>
-                                    <td>some date</td>
-                                    <td>some date</td>
-                                    <td><a href="#" class="btn btn-default btn-sm"><i class="glyphicon glyphicon-cog"></i></a>
-                                    </td>
+                                    <td>LULANGURU</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>MABAMA</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>USOKE</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>URAMBO</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>KALIUA</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>UYUMBU</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>KENGEME</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>LUMBE</td>
+                                    <td></td>
                                 </tr>
                                 </tbody>
                             </table>
-
-                        </div> </td>
+                        </div>
+                    </td>
                 </tr>
                 <tr data-toggle="collapse" data-target="#demo2" class="accordion-toggle">
                     <td><button class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span></button></td>
@@ -50,31 +70,18 @@
                 </tr>
                 <tr>
                     <td colspan="12" class="hiddenRow"><div class="accordian-body collapse" id="demo2">
-                            <table class="table table-striped">
+                            <table class="table table-striped table-condensed">
                                 <thead>
                                 <tr>
-                                    <th>Access Key</th>
-                                    <th>Secret Key</th>
-                                    <th>Status </th>
-                                    <th> Created</th>
-                                    <th> Expires</th>
-                                    <th>Actions</th>
+                                    <th>Stations</th>
+                                    <th></th>
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <tr>
-                                    <td>access-key-1</td>
-                                    <td>secretKey-1</td>
-                                    <td>Status</td>
-                                    <td>some date</td>
-                                    <td>some date</td>
-                                    <td><a href="#" class="btn btn-default btn-sm"><i class="glyphicon glyphicon-cog"></i></a>
-                                    </td>
-                                </tr>
                                 </tbody>
                             </table>
-
-                        </div> </td>
+                        </div>
+                    </td>
                 </tr>
                 <tr data-toggle="collapse" data-target="#demo3" class="accordion-toggle">
                     <td><button class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span></button></td>
@@ -83,31 +90,18 @@
                 </tr>
                 <tr>
                     <td colspan="12" class="hiddenRow"><div class="accordian-body collapse" id="demo3">
-                            <table class="table table-striped">
+                            <table class="table table-striped table-condensed">
                                 <thead>
                                 <tr>
-                                    <th>Access Key</th>
-                                    <th>Secret Key</th>
-                                    <th>Status </th>
-                                    <th> Created</th>
-                                    <th> Expires</th>
-                                    <th>Actions</th>
+                                    <th>Stations</th>
+                                    <th></th>
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <tr>
-                                    <td>access-key-1</td>
-                                    <td>secretKey-1</td>
-                                    <td>Status</td>
-                                    <td>some date</td>
-                                    <td>some date</td>
-                                    <td><a href="#" class="btn btn-default btn-sm"><i class="glyphicon glyphicon-cog"></i></a>
-                                    </td>
-                                </tr>
                                 </tbody>
                             </table>
-
-                        </div> </td>
+                        </div>
+                    </td>
                 </tr>
                 <tr data-toggle="collapse" data-target="#demo4" class="accordion-toggle">
                     <td><button class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span></button></td>
@@ -116,31 +110,50 @@
                 </tr>
                 <tr>
                     <td colspan="12" class="hiddenRow"><div class="accordian-body collapse" id="demo4">
-                            <table class="table table-striped">
+                            <table class="table table-striped table-condensed">
                                 <thead>
                                 <tr>
-                                    <th>Access Key</th>
-                                    <th>Secret Key</th>
-                                    <th>Status </th>
-                                    <th> Created</th>
-                                    <th> Expires</th>
-                                    <th>Actions</th>
+                                    <th>Stations</th>
+                                    <th></th>
                                 </tr>
                                 </thead>
                                 <tbody>
                                 <tr>
-                                    <td>access-key-1</td>
-                                    <td>secretKey-1</td>
-                                    <td>Status</td>
-                                    <td>some date</td>
-                                    <td>some date</td>
-                                    <td><a href="#" class="btn btn-default btn-sm"><i class="glyphicon glyphicon-cog"></i></a>
-                                    </td>
+                                    <td>Dar es salaam</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Kamata</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Buguruni Makuburi</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Buguruni kwa Mnyamani</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Tabata Matumbi</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Mwananchi</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Mabibo</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Ubungo</td>
+                                    <td></td>
                                 </tr>
                                 </tbody>
                             </table>
-
-                        </div> </td>
+                        </div>
+                    </td>
                 </tr>
                 <tr data-toggle="collapse" data-target="#demo5" class="accordion-toggle">
                     <td><button class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span></button></td>
@@ -148,82 +161,12 @@
                     <td></td>
                 </tr>
                 <tr>
-                    <td colspan="12" class="hiddenRow"><div class="accordian-body collapse" id="demo5">
-                            <table class="table table-striped">
-                                <thead>
-                                <tr>
-                                    <th>Access Key</th>
-                                    <th>Secret Key</th>
-                                    <th>Status </th>
-                                    <th> Created</th>
-                                    <th> Expires</th>
-                                    <th>Actions</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                <tr>
-                                    <td>access-key-1</td>
-                                    <td>secretKey-1</td>
-                                    <td>Status</td>
-                                    <td>some date</td>
-                                    <td>some date</td>
-                                    <td><a href="#" class="btn btn-default btn-sm"><i class="glyphicon glyphicon-cog"></i></a>
-                                    </td>
-                                </tr>
-                                </tbody>
-                            </table>
+                    <td colspan="12" class="hiddenRow">
+                    <div class="accordian-body collapse" id="demo5">
 
-                        </div> </td>
+                    </div>
+                    </td>
                 </tr>
-                {{--<tr>--}}
-                    {{--<td width="150">Tabora to Mpanda</td>--}}
-                    {{--<td>Tabora</td>--}}
-                    {{--<td>Kaliua</td>--}}
-                    {{--<td>Mpanda</td>--}}
-                    {{--<td>MABAMA</td>--}}
-                {{--</tr>--}}
-                                {{--<tr>--}}
-                    {{--<td width="150">Tabora to Mpanda</td>--}}
-                    {{--<td>Tabora</td>--}}
-                    {{--<td>Kaliua</td>--}}
-                    {{--<td>Mpanda</td>--}}
-                    {{--<td>USOKE</td>--}}
-                {{--</tr>--}}
-                                {{--<tr>--}}
-                    {{--<td width="150">Tabora to Mpanda</td>--}}
-                    {{--<td>Tabora</td>--}}
-                    {{--<td>Kaliua</td>--}}
-                    {{--<td>Mpanda</td>--}}
-                    {{--<td>URAMBO</td>--}}
-                {{--</tr>--}}
-                                {{--<tr>--}}
-                    {{--<td width="150">Tabora to Mpanda</td>--}}
-                    {{--<td>Tabora</td>--}}
-                    {{--<td>Kaliua</td>--}}
-                    {{--<td>Mpanda</td>--}}
-                    {{--<td>KALIUA</td>--}}
-                {{--</tr>--}}
-                                {{--<tr>--}}
-                    {{--<td width="150">Tabora to Mpanda</td>--}}
-                    {{--<td>Tabora</td>--}}
-                    {{--<td>Kaliua</td>--}}
-                    {{--<td>Mpanda</td>--}}
-                    {{--<td>UYUMBU</td>--}}
-                {{--</tr>--}}
-                                {{--<tr>--}}
-                    {{--<td width="150">Tabora to Mpanda</td>--}}
-                    {{--<td>Tabora</td>--}}
-                    {{--<td>Kaliua</td>--}}
-                    {{--<td>Mpanda</td>--}}
-                    {{--<td>KENGEME</td>--}}
-                {{--</tr>--}}
-                                {{--<tr>--}}
-                    {{--<td width="150">Tabora to Mpanda</td>--}}
-                    {{--<td>Tabora</td>--}}
-                    {{--<td>Kaliua</td>--}}
-                    {{--<td>Mpanda</td>--}}
-                    {{--<td>LUMBE</td>--}}
-                {{--</tr>--}}
                 </tbody>
             </table>
         </div>
